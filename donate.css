@@ -1,0 +1,110 @@
+
+
+/*  */
+*{
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Bitter', serif;
+
+}
+
+.btn{
+   padding: 15px 15px; 
+   background-color:rgb(216, 178, 74);
+   font-size: 20px;
+   color: aquamarine;
+   border-radius: 5px;
+}
+
+.container{
+    margin: 0 auto;
+    width:1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+}
+h3{
+    color: rgb(55, 143, 219);
+    font-size: 30px;
+}
+/*  */
+
+/* header */
+#image{
+    background-image:url("donation13.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+   text-align: center;
+
+}
+h1{
+    color: white;
+    font-size: 60px;
+    
+}
+p{
+    color: white;
+    margin: 30px;
+    width:600px
+    
+}
+ul{
+    display: flex;
+    margin-bottom:  40px;
+
+}
+li{
+    color: rgb(209, 142, 61);
+    padding: 40px 20px;
+    background-color: rgb(215, 237, 240);
+    margin:10px;
+    border-radius: 7px;
+    font-size: 40px;
+}
+#inpt{
+  width:500px;
+  border-bottom: 2px solid black;
+  padding: 20px 10px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#para{
+    color: black;
+}
+
+/*  */
+
+/*  */
+.details{
+    text-align: center;
+}
+
+   
+}
+/*  */
+
+/*  */
+/*  */
+
+/*  */
+/*  */
+
+/*  */
+/*  */
