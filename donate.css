@@ -20,18 +20,29 @@ body{
 
 .container{
     margin: 0 auto;
-    width:1000px;
+    width:90%;
     height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(247, 241, 241);
    
 }
 h3{
     color: rgb(55, 143, 219);
     font-size: 30px;
+}
+.details{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+i{
+    font-size: 60px;
+    color: antiquewhite;
 }
 /*  */
 
@@ -55,8 +66,8 @@ h1{
     font-size: 60px;
     
 }
-p{
-    color: white;
+.banner p{
+    color: rgb(240, 232, 232);
     margin: 30px;
     width:600px
     
@@ -89,15 +100,63 @@ li{
     color: black;
 }
 
-/*  */
-
-/*  */
-.details{
-    text-align: center;
+/* card */
+.plan-container{
+    width: 100%;
+}
+.plan-container .para{
+    padding: 50px 0;
+}
+.plan-container .para p{
+    padding: 20px;
 }
 
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    background-color: rgb(134, 132, 129);
+    padding:0px 3px;
+    padding: 60px 10px;
+    border-radius: 5px;
+    box-shadow: 7px 8px 50px black;
+    
+}
+.card p{
+ margin:10px 0;
+}
+.card h4{
+    padding: 20px 0 10px 0;
+}
+/*  */
+#more .details h3{
+    margin: 30px;
+}
+#email{
+    padding: 70px 200px 70px 70px;
+    background-color: cyan;
+    border-radius: 9px;
+    margin: 60px;
+}
+#email #input{
+  margin-left: 70px;
+  padding: 10px 4px;
+  width: 200px;
+  border: none;
+  background-color: rgb(118, 211, 126);
+  border-radius: 4px;
+}
+#email .bton{
+    padding: 10px 40px;
+    background-color: rgb(243, 70, 70);
+    border: none;
+    border-radius: 4px;
+}
    
-}
+
 /*  */
 
 /*  */
